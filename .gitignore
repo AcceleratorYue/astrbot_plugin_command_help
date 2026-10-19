@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本机开发产物
+_preview_command_help.png
+_preview*.png
+tests/_preview*.png
+_test_runtime/
+*.bak
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini

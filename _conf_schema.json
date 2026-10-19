@@ -1,0 +1,43 @@
+{
+  "title": {
+    "description": "图片标题",
+    "type": "string",
+    "hint": "显示在图片顶部的大标题",
+    "default": "指令总览"
+  },
+  "include_builtin": {
+    "description": "包含 AstrBot 内置指令",
+    "type": "bool",
+    "hint": "内置指令指 /reset、/new、/stats 这类框架自带指令",
+    "default": true
+  },
+  "include_admin_only": {
+    "description": "包含仅管理员可用的指令",
+    "type": "bool",
+    "hint": "关闭后，图片里只会出现所有人可用的指令（权限指令仍带角标）",
+    "default": true
+  },
+  "show_aliases": {
+    "description": "显示指令别名",
+    "type": "bool",
+    "default": true
+  },
+  "columns": {
+    "description": "卡片列数",
+    "type": "int",
+    "hint": "1 为单列长图，2 为左右两栏，3 为三栏紧凑版",
+    "default": 2
+  },
+  "cache_seconds": {
+    "description": "图片缓存秒数",
+    "type": "int",
+    "hint": "同一时间内的重复请求直接复用上张图，避免刷屏时反复渲染；填 0 表示每次都重新生成",
+    "default": 30
+  },
+  "footer_note": {
+    "description": "页脚附加说明",
+    "type": "string",
+    "hint": "可留空；例如填写「有问题找群主」",
+    "default": ""
+  }
+}
