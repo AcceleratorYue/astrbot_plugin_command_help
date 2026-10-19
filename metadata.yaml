@@ -5,7 +5,13 @@ desc: >-
   给机器人加一个统一的指令查询入口：发送「/指令大全」（别名 /帮助、/指令帮助、/指令列表）后，
   自动抓取所有已加载插件的指令（含指令组、子指令、别名、必填/可选参数、权限角标），
   在本机用 Pillow 渲染成一张卡片图发送。不依赖远端 T2I 渲染服务，离线也能出图。
-version: 1.0.0
+version: 1.0.1
 author: AcceleratorYue
 repo: https://github.com/AcceleratorYue/astrbot_plugin_command_help
+social_link: https://github.com/AcceleratorYue
+tags:
+  - 指令
+  - 帮助
+  - 菜单
+  - 图片
 astrbot_version: ">=4.16,<5"
