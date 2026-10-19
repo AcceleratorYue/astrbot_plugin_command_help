@@ -6,7 +6,13 @@
 
 - 插件仓库：<https://github.com/AcceleratorYue/astrbot_plugin_command_help>（公开，MIT）
 - 已发布 GitHub Release：`v1.0.1`（含可上传安装的 zip）
-- 市场提交：通过 <https://cloud.astrbot.app/publish> 提交（需要 AstrBot Cloud 账号 + GitHub App 授权）
+- **市场状态：已上架**（2026-10-20 00:40 CST 通过审核）
+  - 市场页：<https://cloud.astrbot.app/plugin/AcceleratorYue/astrbot_plugin_command_help>
+  - plugin_id：`AcceleratorYue/astrbot_plugin_command_help`
+  - 已发布版本：`1.0.1`（对应提交 `5058b6d`）
+  - 分类：其他（提交时默认分类；如需改为「工具」，可在发布页对已发布插件提交更新时调整）
+  - 市场分发包与 logo 由 AstrBot Cloud 从仓库构建并托管（`download_url` / `logo_url` 指向 astrbot-cloud-test-s3），已验证包内 `metadata.yaml` 为 1.0.1、含 `main.py` 与 `logo.png`
+  - 备注：市场详情的 README 同步可能滞后（上架时 `readme: null`），通常在后续版本更新或同步任务后出现
 
 ## 官方流程（2026-10 时点）
 

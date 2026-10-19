@@ -2,8 +2,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ![AstrBot](https://img.shields.io/badge/AstrBot-%3E%3D4.16-blue)
+[![AstrBot Market](https://img.shields.io/badge/AstrBot%20Market-已上架-22c55e)](https://cloud.astrbot.app/plugin/AcceleratorYue/astrbot_plugin_command_help)
 
 给 [AstrBot](https://github.com/AstrBotDevs/AstrBot) 加一个**统一的指令查询入口**：只注册一个指令，发送后自动抓取当前所有已加载插件的指令，在**本机渲染成一张卡片图**发出来。不依赖远端 T2I 服务，离线也能出图。
+
+> 已在 [AstrBot 插件市场](https://cloud.astrbot.app/plugin/AcceleratorYue/astrbot_plugin_command_help) 上架，可直接在 WebUI 插件市场搜索「指令大全」安装。
 
 ```text
 /指令大全        ← 别名：/帮助、/指令帮助、/指令列表
@@ -24,7 +27,13 @@
 
 ## 安装
 
-### 方式一：WebUI 上传（推荐）
+### 方式一：插件市场（推荐）
+
+1. 打开 AstrBot WebUI →「插件市场」。
+2. 搜索「指令大全」（或插件 ID：`AcceleratorYue/astrbot_plugin_command_help`）。
+3. 点击安装即可；插件市场会自动下载与当前版本匹配的压缩包。
+
+### 方式二：WebUI 上传
 
 1. 下载本仓库，压缩 `astrbot_plugin_command_help` 文件夹为 zip（或用 Releases 里的压缩包）。
 2. 打开 AstrBot WebUI →「插件管理」→ 从本地安装/上传，选择该 zip。
