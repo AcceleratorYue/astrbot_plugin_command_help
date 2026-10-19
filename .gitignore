@@ -10,6 +10,7 @@ _preview_command_help.png
 _preview*.png
 tests/_preview*.png
 _test_runtime/
+dist/
 *.bak
 *.log
 
